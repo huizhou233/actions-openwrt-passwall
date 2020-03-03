@@ -13,9 +13,7 @@ on:
     types: [published]
   push:
     branches:
-      - dev-lean-lede
-    paths:
-      - '.config'
+      - master
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
