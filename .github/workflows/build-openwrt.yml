@@ -65,6 +65,7 @@ jobs:
     - name: diy.sh
       run: |
         chmod +x $DIY_SH
+        cd openwrt
         ../$DIY_SH
 
     - name: Update feeds
